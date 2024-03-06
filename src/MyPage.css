@@ -1,3 +1,39 @@
 .MyPage {
-  margin-left: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.MyContainer {
+  flex: 1;
+  padding: 10px;
+  border-right: 1px solid black;
+  overflow: auto;
+}
+
+.web3-instance {
+  width: 100%;
+  height: 150px;
+  overflow: auto;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  border: 1px solid black;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.account {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.address {
+  word-wrap: break-word;
 }
